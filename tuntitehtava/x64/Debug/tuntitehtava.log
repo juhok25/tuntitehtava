@@ -1,0 +1,3 @@
+﻿  tehtava3a.cpp
+C:\Users\juhok\source\repos\tuntitehtava\tuntitehtava\tehtava3a.cpp(33,3): warning C4858: discarding return value: The result of 'std::async' should be stored in a variable. If the return value is discarded, the temporary 'std::future' is destroyed, waiting for an async result or evaluating a deferred result, thus defeating the purpose of 'std::async'.
+  tuntitehtava.vcxproj -> C:\Users\juhok\source\repos\tuntitehtava\x64\Debug\tuntitehtava.exe
