@@ -25,13 +25,8 @@ int main() {
 	std::vector<int> enemy_hp = { 200, 30, 110, 100, 500 };
 	std::for_each(enemy_hp.begin(), enemy_hp.end(), takeDamage);
 
-	for (const int& hp : enemy_hp) {
-		std::cout << hp << " ";
-	}
-
 	std::sort(enemy_hp.begin(), enemy_hp.end(), [](int a, int b) { return a > b; });
-	std::cout << "\n";
-
+	
 	for (const int& hp : enemy_hp) {
 		std::cout << hp << " ";
 	}
