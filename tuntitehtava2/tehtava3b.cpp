@@ -27,8 +27,8 @@ void withdraw(int numWithdrawals) {
 
 int main() {
 
-	int numDeposits = 100000000; // nosto/otto operaatiot per thread
-	int numWithdrawals = 100000000;
+	int numDeposits = 10000000; // nosto/otto operaatiot per thread
+	int numWithdrawals = 10000000;
 
 	auto x = std::async(deposit, numDeposits);
 	auto y = std::async(withdraw, numWithdrawals);

@@ -11,6 +11,9 @@ void sum_part(const std::vector<int>& vec, size_t start, size_t end, long long& 
 
 int main() {
 
+	unsigned int n = std::thread::hardware_concurrency();
+	std::cout << n << " concurrent threads are supported. \n";
+
 	const size_t size = 5000000; // 50 milj
 	const int num_parts = 4; // 4 osaan
 
